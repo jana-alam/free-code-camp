@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  font-family: monospace;
+}
+
+p {
+  font-size: 20px;
+
+  text-align: justify;
+}
+
+#main {
+  display: flex;
+  justify-content: stretch;
+  flex-direction: column;
+}
+#img-div {
+  width: 80%;
+  margin: auto;
+  padding: 0 80px;
+}
+#image {
+  display: flex;
+  max-width: 60%;
+  margin: auto;
+  height: auto;
+}
+
+header {
+  display: flex;
+  padding-top: 20px;
+  margin: 0 30px;
+  background-color: grey;
+  justify-content: stretch;
+  flex-direction: column;
+}
+
+header h1 {
+  text-align: center;
+  color: white;
+  font-size: 40px;
+}
+
+figcaption {
+  max-width: 60%;
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+  color: white;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  padding: 0 20px;
+  justify-content: space-around;
+}
+
+#tribute-info {
+  padding: 10px 40px;
+  margin: 10px;
+  color: white;
+  flex: 50%;
+  text-align: center;
+  background-color: #33154e;
+  box-shadow: 6px -8px 12px 6px rgb(141, 30, 48);
+}
+
+h3 {
+  font-size: 32px;
+  color: hsl(14, 100%, 62%);
+}
+
+#tribute-link,
+#link {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
